@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f2917fdbd54824981c59a4e299bf57, type: 3}
+  m_Name: Stage_05
+  m_EditorClassIdentifier: 
+  mapDefinitionPrefab: {fileID: -222048680062807077, guid: d45ce08892feac84eab2e67a3f49310e, type: 3}
+  variableTileSettings:
+  - tileCode: 21
+    variableType: 0
+    operation: 0
+    value: 1
+  - tileCode: 22
+    variableType: 1
+    operation: 0
+    value: 1
+  - tileCode: 23
+    variableType: 1
+    operation: 4
+    value: 0
+  - tileCode: 24
+    variableType: 2
+    operation: 0
+    value: 1
+  ifTileSettings:
+  - tileCode: 31
+    variableToCheck: 0
+    comparison: 0
+    valueToCompare: 3
+  - tileCode: 32
+    variableToCheck: 1
+    comparison: 0
+    valueToCompare: 2
+  - tileCode: 33
+    variableToCheck: 2
+    comparison: 0
+    valueToCompare: 3
+  - tileCode: 34
+    variableToCheck: 0
+    comparison: 0
+    valueToCompare: 2
+  - tileCode: 35
+    variableToCheck: 2
+    comparison: 2
+    valueToCompare: 3
+  - tileCode: 36
+    variableToCheck: 1
+    comparison: 4
+    valueToCompare: 9
